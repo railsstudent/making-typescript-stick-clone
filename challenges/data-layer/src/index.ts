@@ -54,7 +54,7 @@ export class DataStore implements DataStoreMethods {
   }
   
   clearSongs(): void {
-    this.#data['song'] = {}
+    this.#data.song = {}
   }
   
   addSong(newItem: Song): Song {
@@ -77,7 +77,7 @@ export class DataStore implements DataStoreMethods {
   }
   
   clearMovies(): void {
-    this.#data['song'] = {}
+    this.#data.movie = {}
   }
   
   addMovie(newItem: Movie): Movie {
